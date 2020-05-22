@@ -13,6 +13,13 @@
   }
 }
 
+.main-carousel{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
