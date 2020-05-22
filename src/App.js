@@ -1,10 +1,19 @@
-import React from 'react';
-import Main from './components/Main.js'
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Main from "./components/Main.js";
+import "./App.css";
 
 function App() {
   return (
-    <Main />
+    <Router>
+      {/* A <Switch> looks through its children <Route>s and
+          renders the first one that matches the current URL. */}
+      <Switch>
+        <Route path="/">
+          <Main />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
