@@ -1,23 +1,17 @@
 import React from "react";
 import {
   Carousel,
-  Container,
-  Row,
-  Col,
   Jumbotron,
   Button,
 } from "react-bootstrap";
 
 const Main = () => {
   return (
-    <div>
+    <div className='focused-page'>
       <Jumbotron>
         <h1>Radouane Bahi</h1>
         <p>Come up with some funky tag-line for myself here.</p>
       </Jumbotron>
-      <Container className="main-carousel">
-        <Row>
-          <Col xs={5}>
             <Carousel>
               <Carousel.Item>
                 <img
@@ -36,9 +30,6 @@ const Main = () => {
                 />
               </Carousel.Item>
             </Carousel>
-          </Col>
-        </Row>
-      </Container>
     </div>
   );
 };
