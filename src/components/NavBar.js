@@ -9,7 +9,7 @@ const NavBar = () => {
           width={128}
           height={128}
           src="https://media-exp1.licdn.com/dms/image/C4E03AQEXqXj838lTgQ/profile-displayphoto-shrink_400_400/0?e=1595462400&v=beta&t=ujTY_qby_kjm_8JWTdmFDQL9YMezptARHekOwuk6UzI"
-          alt="Generic placeholder"
+          alt="Navbar"
         />
       </Media>
       <h5>Radouane Bahi</h5>
