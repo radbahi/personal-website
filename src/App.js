@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from "./components/Main.js";
 import Projects from "./components/Projects.js";
 import NavBar from "./components/NavBar.js";
+import Links from "./components/Links.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/projects">
           <Projects />
+        </Route>
+        <Route exact path="/links">
+          <Links />
         </Route>
       </Switch>
     </Router>

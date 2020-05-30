@@ -31,13 +31,23 @@
 .project-div {
   display: flex;
   flex-direction: column;
-  width: "18rem";
-  align-items: 'center';
-  justify-content: 'center';
-  text-align: 'center';
   align-items: center;
-  margin-left: '160px';
-  padding: "0px 10px"
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 160px;
+  padding: 0px 10px
+}
+
+.links-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 160px;
+  padding: 0px 10px
 }
 
 .whole-navbar a {

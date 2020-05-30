@@ -15,7 +15,7 @@ const NavBar = () => {
       <h5>Radouane Bahi</h5>
         <a href="/">Main Page</a>
         <a href="/projects">Projects</a>
-        <a href="/contactme">Contact Me</a>
+        <a href="/links">Links</a>
     </div>
   );
 };
