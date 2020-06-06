@@ -7,7 +7,9 @@ const hanximg = require("../local_images/HANXIMG.jpg");
 const cardStyle = {
   display: "flex",
   flexDirection: "column",
-  width: "40rem",
+  width: "35rem",
+  marginLeft: "22rem",
+  marginRight: '-133rem',
   alignItems: "center",
   textAlign: "center",
   justifyContent: "center",
@@ -15,7 +17,7 @@ const cardStyle = {
 
 const Projects = () => {
   return (
-    <div className="project-div">
+    <div>
       <Card style={cardStyle}>
         <Card.Img variant="top" src={covidimg} />
         <Card.Body>
