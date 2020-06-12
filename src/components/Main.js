@@ -1,26 +1,33 @@
 import React from "react";
-import { Jumbotron } from "react-bootstrap";
+import { Media } from "react-bootstrap";
 
-const jumbotronStyle = {
+const mediaStyle = {
   justifyContent: "center",
   padding: 10,
-  backgroundSize: "cover",
-  backgroundImage:
-    "url(https://www.howardmodels.com/dpr/empire/Empire-State-Pano-Xlg.jpg)", // find a better image
-  color: "white",
+  backgroundColor: "white",
+  width: "35rem",
+  marginLeft: "15rem",
+  marginRight: "-133rem",
+  marginTop: "-90vh",
+  position: 'fixed'
 };
 
 const Main = () => {
   return (
-    <div className="focused-page">
-      <Jumbotron style={jumbotronStyle}>
-        <h1>Radouane Bahi</h1>
-        <p>Come up with some funky tag-line for myself here.</p>
-      </Jumbotron>
-      <p>
-        Hello! I am a freshly graduated software engineer from the Flatiron
-        School. Work on this some more.
-      </p>
+    <div>
+    <div className="main-div">
+    </div>
+      <Media style={mediaStyle}>
+        <Media.Body>
+          <h5>Welcome to my site!</h5>
+          <p>
+            My name is Radouane Bahi. I am a graduate from the Flatiron School. I got into software 
+            engineering from a friend who recommended it to me after I decided to not pursue a career in law enforcement
+            following my graduation from John Jay College. Figures that I'd have a change of heart right after graduation!
+            Please take the time to click on the links to the left leading to my projects and social media/blogs.
+          </p>
+        </Media.Body>
+      </Media>
     </div>
   );
 };

@@ -1,10 +1,4 @@
 
-
-.main-carousel {
-  justify-content: right;
-  margin: auto;
-}
-
 .whole-navbar {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
@@ -21,11 +15,27 @@
   color: whitesmoke;
 }
 
-.focused-page {
+.whole-navbar a {
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 25px;
+  color: #818181;
+  text-align: center;
+}
+
+.whole-navbar a:hover {
+  color: #f1f1f1;
+}
+
+.main-div {
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
   text-align: center;
   justify-content: center;
+  height: 100vh;
+  background-image: url("./local_images/DSC03920 (1).jpg");
+  background-size: cover;
+
 }
 
 .project-div {
@@ -49,16 +59,3 @@
   margin-left: 160px;
   padding: 0px 10px
 }
-
-.whole-navbar a {
-  text-decoration: none;
-  padding-right: 15px;
-  font-size: 25px;
-  color: #818181;
-  text-align: center;
-}
-
-.whole-navbar a:hover {
-  color: #f1f1f1;
-}
-
