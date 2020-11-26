@@ -6,14 +6,9 @@ const covidimg = require('../local_images/COVID19IMG.jpg')
 const hanximg = require('../local_images/HANXIMG.jpg')
 
 const cardStyle = {
-  display: 'flex',
-  flexDirection: 'column',
   width: '50vw',
   // marginLeft: '10vw',
   // marginRight: '-133rem',
-  alignItems: 'center',
-  textAlign: 'center',
-  justifyContent: 'center',
 }
 
 const Projects = () => {
@@ -26,7 +21,9 @@ const Projects = () => {
           <Card.Text>
             Aptly named. A world map with bubbles that you can hover over for
             quick statistics in each country regarding the virus. Also a news
-            section which contains top international headlines.
+            section which contains top international headlines. I plan on
+            rebuilding this app as I'm definitely not satisfied with how it
+            stands.
           </Card.Text>
           <Button
             target='_blank'

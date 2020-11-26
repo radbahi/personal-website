@@ -32,28 +32,28 @@
   text-align: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('./local_images/DSC03920 (1).jpg');
+  background-image: url('./local_images/DSC03920.jpg');
   background-size: cover;
 }
 
 .project-div {
+  background-color: beige;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-left: 160px;
+}
+
+.links-div {
+  background-color: beige;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  align-items: center;
   margin-left: 160px;
-  padding: 0px 10px;
-}
-
-.links-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  align-items: center;
-  margin-left: 160px;
-  padding: 0px 10px;
 }
