@@ -2,7 +2,6 @@ import React from 'react'
 import { Card, Button } from 'react-bootstrap'
 
 const pokemonimg = require('../local_images/POKEMONIMG.png')
-const covidimg = require('../local_images/COVID19IMG.jpg')
 const hanximg = require('../local_images/HANXIMG.jpg')
 
 const cardStyle = {
@@ -15,7 +14,7 @@ const Projects = () => {
   return (
     <div className='project-div'>
       <Card style={cardStyle}>
-        <Card.Img variant='top' src={covidimg} />
+        <Card.Img variant='top' />
         <Card.Body>
           <Card.Title>COVID-19 Tracker</Card.Title>
           <Card.Text>
