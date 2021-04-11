@@ -1,34 +1,47 @@
 .whole-navbar {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  /* height: 100%; Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  padding-left: 15px;
+  /* z-index: 1; /* Stay on top */
+  /* top: 0; Stay at the top */
+  bottom: 0;
+  background-color: #818181;
+  opacity: 70%;
+  overflow: hidden; /* Disable horizontal scroll */
+  /* padding-top: 20px;
+  padding-left: 15px; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: whitesmoke;
 }
 
-.whole-navbar a {
-  text-decoration: none;
-  padding-right: 15px;
-  font-size: 25px;
-  color: #818181;
+.whole-navbar .links-left {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.whole-navbar .links-right {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .whole-navbar a:hover {
-  color: #f1f1f1;
+  color: red;
 }
 
 .main-div {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  /* margin-left: 160px; Same as the width of the sidebar */
+  /* padding: 0px 10px; */
   text-align: center;
   justify-content: center;
   height: 100vh;
