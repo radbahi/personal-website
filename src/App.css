@@ -16,6 +16,7 @@
   padding: 7px 40px;
   text-decoration: none;
   font-size: 24px;
+  text-shadow: 2px 2px black;
 }
 
 .links-right {
@@ -37,13 +38,19 @@
 }
 
 .main-div {
-  /* margin-left: 160px; Same as the width of the sidebar */
-  /* padding: 0px 10px; */
   text-align: center;
   justify-content: center;
   height: 100vh;
   background-image: url('./local_images/DSC03920.jpg');
   background-size: cover;
+}
+.main-text {
+  text-align: right;
+  position: fixed;
+  top: 35%;
+  left: 28%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
 .project-div {
