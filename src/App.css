@@ -37,13 +37,22 @@
   color: red;
 }
 
-.main-div {
+/* .main-div {
   text-align: center;
   justify-content: center;
   height: 100vh;
   background-image: url('./local_images/DSC03920.jpg');
   background-size: cover;
+} */
+
+html {
+  background: url('./local_images/DSC03920.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 .main-text {
   text-align: right;
   position: fixed;
@@ -51,6 +60,17 @@
   left: 28%;
   margin-top: -50px;
   margin-left: -100px;
+}
+
+.aboutme-text {
+  background: rgba(202, 202, 202, 0.6);
+  text-align: center;
+  position: fixed;
+  padding-right: 50%;
+  top: 35%;
+  right: 28%;
+  margin-top: -50px;
+  /* margin-right: -100px; */
 }
 
 .project-div {
