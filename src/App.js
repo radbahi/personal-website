@@ -10,24 +10,10 @@ import './App.css'
 function App() {
   return (
     <>
-      <div>
-        <NavBar />
-        <Router>
-          {/* A <Switch> looks through its children <Route>s and
-          renders the first one that matches the current URL. */}
-          <Switch>
-            <Route exact path='/'>
-              <Main />
-            </Route>
-            <Route exact path='/projects'>
-              <Projects />
-            </Route>
-            <Route exact path='/aboutme'>
-              <AboutMe />
-            </Route>
-          </Switch>
-        </Router>
-      </div>
+      <NavBar />
+      <Main />
+      <Projects />
+      <AboutMe />
     </>
   )
 }

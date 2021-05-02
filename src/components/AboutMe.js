@@ -6,8 +6,8 @@ const githubimg = require('../local_images/github_PNG42.png')
 const AboutMe = () => {
   return (
     <div className='aboutme-text'>
-      <h1>Who I am</h1>
-      <p style={{ color: 'white', textShadow: '2px 2px black' }}>
+      <h1 style={{ textAlign: 'center' }}>Who I am</h1>
+      <p style={{ color: 'white', textShadow: '1.5px 1.5px black' }}>
         I'm a graduate from the Flatiron School's Access Labs where I studied
         JavaScript, React, Ruby, Rails, and Redux. My original pursuit was to be
         a police officer, but after I had gotten my Bachelor's in Criminal
@@ -16,17 +16,43 @@ const AboutMe = () => {
         contributing to something more than myself, that I am a part of this
         world's technological drive.
       </p>
-      <p style={{ color: 'white', textShadow: '2px 2px black' }}>
-        Based in New York City
+      <p style={{ color: 'white', textShadow: '1.5px 1.5px black' }}>
+        Coding was always something that piqued my interest, even dabbling in
+        HTML when I was a pre-teen. A friend of mine who had also attended
+        Flatiron recommended the school to me. After taking the pre-coursework,
+        I got hooked and wanted to immerse myself into the world completely.
+        Graduated in late March 2020 and I am still learning as much as I can to
+        keep myself sharp for the industry.
       </p>
-      {/* <p>
-      My name is Radouane Bahi. I am a graduate from the Flatiron School. I
-      got into software engineering from a friend who recommended it to me
-      after I decided to not pursue a career in law enforcement following my
-      graduation from John Jay College. Figures that I'd have a change of
-      heart right after graduation! Please take the time to click on the
-      links to the left leading to my projects and social media/blogs.
-    </p> */}
+      <p style={{ color: 'white', textShadow: '1.5px 1.5px black' }}>
+        I'm looking for opportunities! Please contact me via{' '}
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://www.linkedin.com/in/radouane-bahi-5410a1137/'
+          style={{ textShadow: '1px 1px blue' }}
+        >
+          LinkedIn
+        </a>
+        ,{' '}
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://github.com/radbahi'
+          style={{ textShadow: '1px 1px blue' }}
+        >
+          GitHub
+        </a>
+        , or at{' '}
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          href='mailto:radbahi@gmail.com'
+          style={{ textShadow: '1px 1px blue' }}
+        >
+          radbahi@gmail.com
+        </a>
+      </p>
     </div>
   )
 }
