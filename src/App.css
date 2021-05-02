@@ -4,11 +4,12 @@
 .whole-navbar {
   width: 100%;
   position: fixed;
-  top: 0;
+  /* top: 0; */
   background: #5b5b5b;
   display: flex;
   flex-direction: row;
   color: whitesmoke;
+  z-index: 1;
 }
 
 .navbar-text {
@@ -50,31 +51,28 @@
   background-size: cover;
 }
 
-/* html {
-  background: url('./local_images/DSC03920.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
 .main-text {
   text-align: center;
-  position: fixed;
+  position: absolute;
   /* padding-right: 50%; */
   top: 20%;
   right: 55%;
   left: 20%;
 }
 
+.aboutme-div {
+  background-color: #efe4d7;
+}
+
 .aboutme-text {
-  background: rgba(202, 202, 202, 0.6);
   text-align: left;
-  position: fixed;
+  /* position: fixed; */
   /* padding-right: 50%; */
-  top: 10%;
-  right: 50%;
-  left: 20%;
+  position: relative;
+  flex-direction: row;
+  /* margin-top: 10%; */
+  margin-right: 50%;
+  margin-left: 20%;
   /* margin-top: -50px; */
   /* margin-right: -100px; */
 }
