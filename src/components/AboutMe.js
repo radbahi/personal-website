@@ -3,31 +3,37 @@ import portraitOfMe from '../local_images/f26efe7e0435ae9972fc079789ab8d59.jpeg'
 
 const linkedinimg = require('../local_images/linkedin.png')
 const githubimg = require('../local_images/github_PNG42.png')
-// const portraitOfMe = require('../local_images/f26efe7e0435ae9972fc079789ab8d59.jpeg')
 
 const AboutMe = () => {
   return (
     <div className='aboutme-div'>
-      <img src={portraitOfMe} alt='Portrait of me!' />
+      <img
+        className='aboutme-portrait'
+        src={portraitOfMe}
+        alt='Portrait of me!'
+      />
 
       <div className='aboutme-text'>
-        <h1 style={{ textAlign: 'center' }}>Who I am</h1>
+        <h1>
+          <strong>Why Coding?</strong>
+        </h1>
+        <br />
         <p>
-          I'm a graduate from the Flatiron School's Access Labs where I studied
-          JavaScript, React, Ruby, Rails, and Redux. My original pursuit was to
-          be a police officer, but after I had gotten my Bachelor's in Criminal
-          Justice from John Jay College, I realize just how limiting that career
-          would have been. Working with code has allowed me to feel like I am
-          contributing to something more than myself, that I am a part of this
-          world's technological drive.
+          Coding has always piqued my interest, even dabbling in HTML when I was
+          a pre-teen. A friend of mine, who had also attended Flatiron,
+          recommended the school to me. After taking the pre-coursework, I got
+          hooked and wanted to immerse myself into the world completely.
         </p>
+        <br />
+
         <p>
-          Coding was always something that piqued my interest, even dabbling in
-          HTML when I was a pre-teen. A friend of mine who had also attended
-          Flatiron recommended the school to me. After taking the
-          pre-coursework, I got hooked and wanted to immerse myself into the
-          world completely. Graduated in late March 2020 and I am still learning
-          as much as I can to keep myself sharp for the industry.
+          Originally, I was aiming to work in Law Enforcement. After I had
+          aquired my Bachelor's Degree in Criminal Justice from John Jay
+          College, I realized how limiting that field would have been. Working
+          with code has allowed me to feel that I am contributing to something
+          more bigger, that I am a part of this world's technological drive.
+          Having graduated in March of 2020, I am still learning as much as I
+          can to keep myself sharp within the industry
         </p>
         <p>
           I'm looking for opportunities! Please contact me via{' '}

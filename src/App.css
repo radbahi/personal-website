@@ -2,7 +2,8 @@
 /* #5B5B5B greys/blacks navbar  */
 
 .whole-navbar {
-  width: 100%;
+  width: 100vw;
+  height: 6vh;
   position: fixed;
   /* top: 0; */
   background: #5b5b5b;
@@ -47,6 +48,7 @@
   text-align: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
   background-image: url('./local_images/DSC03920.jpg');
   background-size: cover;
 }
@@ -62,19 +64,47 @@
 
 .aboutme-div {
   background-color: #efe4d7;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 94vh;
+  width: 100vw;
 }
 
 .aboutme-text {
   text-align: left;
+  /* float: left; */
   /* position: fixed; */
-  /* padding-right: 50%; */
-  position: relative;
-  flex-direction: row;
+  padding-right: 10%;
+  padding-top: 7%;
+  /* position: relative; */
   /* margin-top: 10%; */
-  margin-right: 50%;
-  margin-left: 20%;
+  /* margin-right: 10%;
+  margin-left: 50%; */
   /* margin-top: -50px; */
   /* margin-right: -100px; */
+}
+
+.aboutme-portrait {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  border-radius: 0% 35% 0% 35%;
+}
+
+.skillset-div {
+  background: #5b5b5b;
+  height: 100vh;
+  width: 100vw;
+}
+
+.skillset-text {
+  color: #efe4d7;
+  text-align: center;
+  padding-top: 10%;
 }
 
 .project-div {
@@ -85,12 +115,13 @@
   text-align: center;
   align-items: center;
   margin-left: 160px;
+  height: 94vh;
 }
 
 .links-div {
   background-color: beige;
   background-size: cover;
-  height: 100vh;
+  height: 94vh;
   display: flex;
   flex-direction: column;
   align-items: center;
