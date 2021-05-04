@@ -28,7 +28,7 @@ const AboutMe = () => {
 
         <p>
           Originally, I was aiming to work in Law Enforcement. After I had
-          aquired my Bachelor's Degree in Criminal Justice from John Jay
+          acquired my Bachelor's Degree in Criminal Justice from John Jay
           College, I realized how limiting that field would have been. Working
           with code has allowed me to feel that I am contributing to something
           more bigger, that I am a part of this world's technological drive.

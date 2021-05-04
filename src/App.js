@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Main from './components/Main.js'
 import Projects from './components/Projects.js'
 import NavBar from './components/NavBar.js'
