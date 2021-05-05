@@ -125,17 +125,15 @@
   object-fit: contain;
   width: 70%;
   height: 70%;
+  padding-top: 1vh;
 }
 
 .project-div {
-  background-color: beige;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  margin-left: 160px;
+  background-color: #efe4d7;
+  padding-top: 5%;
+  padding-bottom: 5%;
   height: 95vh;
+  width: 100vw;
 }
 
 .links-div {

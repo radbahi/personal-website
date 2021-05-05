@@ -1,75 +1,46 @@
 import React from 'react'
-import { Card, Button } from 'react-bootstrap'
-
-const pokemonimg = require('../local_images/POKEMONIMG.png')
-const hanximg = require('../local_images/HANXIMG.jpg')
-
-const cardStyle = {
-  width: '50vw',
-  // marginLeft: '10vw',
-  // marginRight: '-133rem',
-}
+import Carousel from 'react-bootstrap/Carousel'
+import javascriptLogo from '../local_images/javascript-logo.png'
+import reactLogo from '../local_images/react-logo.png'
+import reduxLogo from '../local_images/redux-logo.png'
+import rubyLogo from '../local_images/ruby-logo.png'
+import railsLogo from '../local_images/rails-logo.png'
 
 const Projects = () => {
   return (
     <div className='project-div'>
-      <Card style={cardStyle}>
-        <Card.Img variant='top' />
-        <Card.Body>
-          <Card.Title>COVID-19 Tracker</Card.Title>
-          <Card.Text>
-            Aptly named. A world map with bubbles that you can hover over for
-            quick statistics in each country regarding the virus. Also a news
-            section which contains top international headlines. I plan on
-            rebuilding this app as I'm definitely not satisfied with how it
-            stands.
-          </Card.Text>
-          <Button
-            target='_blank'
-            href='https://covid19trackerflatiron.herokuapp.com/'
-            variant='primary'
-          >
-            Visit project
-          </Button>
-        </Card.Body>
-      </Card>
-      <Card style={cardStyle}>
-        <Card.Img variant='top' src={hanximg} />
-        <Card.Body>
-          <Card.Title>HANX!</Card.Title>
-          <Card.Text>
-            Browse some of the many movies of our national American treasure,
-            Tom Hanks. Also be sure to take a look at the Hanks-inspired
-            merchandise that (isn't actually) on sale in the store! My personal
-            favorites are the shower curtain and miniskirt.
-          </Card.Text>
-          <Button
-            target='_blank'
-            href='https://hanx-app.herokuapp.com/'
-            variant='primary'
-          >
-            Visit project
-          </Button>
-        </Card.Body>
-      </Card>
-      <Card style={cardStyle}>
-        <Card.Img variant='top' src={pokemonimg} />
-        <Card.Body>
-          <Card.Title>Pokemon Battle</Card.Title>
-          <Card.Text>
-            Pick out three of your favorite first-gen Pokemon and have them
-            battle against other users! Submit your name at the top and scroll
-            through the list on the left to create your team.
-          </Card.Text>
-          <Button
-            target='_blank'
-            href='https://radbahi.github.io/pokemon_battle_frontend/'
-            variant='primary'
-          >
-            Visit project
-          </Button>
-        </Card.Body>
-      </Card>
+      <Carousel style={{ background: '#5b5b5b' }}>
+        <Carousel.Item>
+          <img src={javascriptLogo} />
+          <Carousel.Caption>
+            <p>test 1</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={reactLogo} />
+          <Carousel.Caption>
+            <p>test 1</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={reduxLogo} />
+          <Carousel.Caption>
+            <p>test 1</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={rubyLogo} />
+          <Carousel.Caption>
+            <p>test 1</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={railsLogo} />
+          <Carousel.Caption>
+            <p>test 1</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
     </div>
   )
 }
