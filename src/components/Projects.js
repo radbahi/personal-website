@@ -7,25 +7,34 @@ import HanxImg from '../local_images/HANXIMG.jpg'
 const Projects = () => {
   return (
     <div className='project-div'>
-      <Carousel style={{ background: '#5b5b5b', paddingTop: '5vh' }}>
+      <h1>My Finished Projects</h1>
+      <Carousel
+        style={{ background: '#5b5b5b', paddingTop: '5vh', zIndex: '0' }}
+      >
         <Carousel.Item>
           <img
             style={{ height: '70vh', width: '50vw', paddingBottom: '20vh' }}
             src={covid19TrackerImg}
           />
-          <Carousel.Caption style={{ marginTop: '600px' }}>
+          <Carousel.Caption>
             <h1>COVID-19 Tracker</h1>
             <p>A data tracking and visual tool for the virus</p>
-            <a href='https://github.com/teapuddles/CovidTrackerBackend'>
+            <a
+              style={{ color: '#89CFF0' }}
+              href='https://github.com/teapuddles/CovidTrackerBackend'
+            >
               Backend
             </a>
             {' | '}
-            <a href='https://github.com/radbahi/CovidTrackerFrontend'>
+            <a
+              style={{ color: '#89CFF0' }}
+              href='https://github.com/radbahi/CovidTrackerFrontend'
+            >
               Frontend
             </a>
             {' | '}
             <a
-              style={{ textShadow: '1px 1px blue' }}
+              style={{ color: '#89CFF0' }}
               href='https://covid19trackerfrontend.herokuapp.com/'
             >
               Website
@@ -41,12 +50,22 @@ const Projects = () => {
             <h1>Gadget Pro Shop</h1>
             <p>A mock e-commerce site with a PayPal SDK</p>
 
-            <a href='https://github.com/radbahi/UdemyProShop'>GitHub</a>
-            {' | '}
-            <a href='https://www.youtube.com/watch?v=NwZI-5Ej-44'>Demo</a>
+            <a
+              style={{ color: '#89CFF0' }}
+              href='https://github.com/radbahi/UdemyProShop'
+            >
+              GitHub
+            </a>
             {' | '}
             <a
-              style={{ textShadow: '1px 1px blue' }}
+              style={{ color: '#89CFF0' }}
+              href='https://www.youtube.com/watch?v=NwZI-5Ej-44'
+            >
+              Demo
+            </a>
+            {' | '}
+            <a
+              style={{ color: '#89CFF0' }}
               href='https://udemyproshop.herokuapp.com/'
             >
               Website
@@ -63,19 +82,29 @@ const Projects = () => {
             <p>A mock e-commerce and fan site utilizing a styling library </p>
 
             <a
-              style={{ textShadow: '1px 1px blue' }}
+              style={{ color: '#89CFF0' }}
               href='https://github.com/radbahi/hanx-backend'
             >
               Backend
             </a>
             {' | '}
-            <a href='https://github.com/hylobates-lar/hanx-frontend'>
+            <a
+              style={{ color: '#89CFF0' }}
+              href='https://github.com/hylobates-lar/hanx-frontend'
+            >
               Frontend
             </a>
             {' | '}
-            <a href='https://www.youtube.com/watch?v=wLqJUypct4o'>Demo</a>
+            <a
+              style={{ color: '#89CFF0' }}
+              href='https://www.youtube.com/watch?v=wLqJUypct4o'
+            >
+              Demo
+            </a>
             {' | '}
-            <a href='https://hanx.netlify.app/'>Website</a>
+            <a style={{ color: '#89CFF0' }} href='https://hanx.netlify.app/'>
+              Website
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
