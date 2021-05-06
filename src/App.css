@@ -134,6 +134,8 @@
   padding-bottom: 5%;
   height: 95vh;
   width: 100vw;
+  align-items: center;
+  text-align: center;
 }
 
 .links-div {
