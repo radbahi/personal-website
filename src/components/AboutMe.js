@@ -1,8 +1,8 @@
 import React from 'react'
-import portraitOfMe from '../local_images/f26efe7e0435ae9972fc079789ab8d59.jpeg'
+import portraitOfMe from '../local_files/f26efe7e0435ae9972fc079789ab8d59.jpeg'
 
-const linkedinimg = require('../local_images/linkedin.png')
-const githubimg = require('../local_images/github_PNG42.png')
+const linkedinimg = require('../local_files/linkedin.png')
+const githubimg = require('../local_files/github_PNG42.png')
 
 const AboutMe = () => {
   return (

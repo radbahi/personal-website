@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import covid19TrackerImg from '../local_images/covid19tracker.png'
-import proShopImg from '../local_images/proshop.png'
-import HanxImg from '../local_images/HANXIMG.jpg'
+import covid19TrackerImg from '../local_files/covid19tracker.png'
+import proShopImg from '../local_files/proshop.png'
+import HanxImg from '../local_files/HANXIMG.jpg'
 
 const Projects = () => {
   return (

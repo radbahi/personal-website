@@ -159,3 +159,10 @@
   height: 95vh;
   width: 100vw;
 }
+
+.contactme-info {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}

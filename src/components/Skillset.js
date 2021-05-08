@@ -1,9 +1,9 @@
 import React from 'react'
-import javascriptLogo from '../local_images/javascript-logo.png'
-import reactLogo from '../local_images/react-logo.png'
-import reduxLogo from '../local_images/redux-logo.png'
-import rubyLogo from '../local_images/ruby-logo.png'
-import railsLogo from '../local_images/rails-logo.png'
+import javascriptLogo from '../local_files/javascript-logo.png'
+import reactLogo from '../local_files/react-logo.png'
+import reduxLogo from '../local_files/redux-logo.png'
+import rubyLogo from '../local_files/ruby-logo.png'
+import railsLogo from '../local_files/rails-logo.png'
 
 const Skillset = () => {
   return (

@@ -1,9 +1,5 @@
 import React from 'react'
 
-// const linkedinimg = require('../local_images/linkedin.png')
-// const githubimg = require('../local_images/github_PNG42.png')
-// const gmailimg = require('../local_images/512px-Gmail_icon_(2020).svg.png')
-
 const NavBar = () => {
   return (
     <div className='whole-navbar justify-between'>
