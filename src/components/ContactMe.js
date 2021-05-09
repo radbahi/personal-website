@@ -1,5 +1,3 @@
-import PDFViewer from 'pdf-viewer-reactjs'
-
 const ContactMe = () => {
   return (
     <div className='contactme-div'>
@@ -11,10 +9,13 @@ const ContactMe = () => {
         I am currently looking for opportunities!
       </h1>
       <div className='contactme-info'>
-        <PDFViewer
-          document={{
-            url: '../local_files/my_resume.pdf',
-          }}
+        <iframe
+          className='pdf'
+          src='pdf/web/viewer.html?file=../../../src/local_files/my_resume.pdf'
+          title="Radouane Bahi's resume"
+          style={{ border: '0' }}
+          width='50%'
+          height='50%'
         />
       </div>
     </div>
