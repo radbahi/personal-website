@@ -6,7 +6,7 @@ import HanxImg from '../local_files/HANXIMG.jpg'
 
 const Projects = () => {
   return (
-    <div className='project-div'>
+    <section className='project-section'>
       <h1>My Finished Projects</h1>
       <Carousel
         style={{ background: '#5b5b5b', paddingTop: '5vh', zIndex: '0' }}
@@ -108,7 +108,7 @@ const Projects = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </section>
   )
 }
 

@@ -1,6 +1,6 @@
 const ContactMe = () => {
   return (
-    <div className='contactme-div'>
+    <section className='contactme-section'>
       <h1
         style={{
           textAlign: 'center',
@@ -9,16 +9,17 @@ const ContactMe = () => {
         I am currently looking for opportunities!
       </h1>
       <div className='contactme-info'>
+        <h1>YO</h1>
         <iframe
           className='pdf'
-          src='pdf/web/viewer.html?file=../../../src/local_files/my_resume.pdf'
+          src='pdf/web/viewer.html?file=../../my_resume.pdf'
           title="Radouane Bahi's resume"
           style={{ border: '0' }}
           width='50%'
-          height='50%'
+          height='500vh'
         />
       </div>
-    </div>
+    </section>
   )
 }
 

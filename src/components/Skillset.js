@@ -7,7 +7,7 @@ import railsLogo from '../local_files/rails-logo.png'
 
 const Skillset = () => {
   return (
-    <div className='skillset-div'>
+    <section className='skillset-section'>
       <div className='skillset-text'>
         <p>Background:</p>
         <br />
@@ -47,7 +47,7 @@ const Skillset = () => {
           <p style={{ color: '#efe4d7', paddingTop: '1vh' }}>Rails</p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

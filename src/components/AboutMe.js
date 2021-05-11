@@ -6,7 +6,7 @@ const githubimg = require('../local_files/github_PNG42.png')
 
 const AboutMe = () => {
   return (
-    <div className='aboutme-div'>
+    <section className='aboutme-section'>
       <img
         className='aboutme-portrait'
         src={portraitOfMe}
@@ -65,7 +65,7 @@ const AboutMe = () => {
           </a>
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -6,7 +6,7 @@ import AboutMe from './components/AboutMe.js'
 import Skillset from './components/Skillset.js'
 import ContactMe from './components/ContactMe.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import './App.scss'
 
 function App() {
   return (

@@ -2,14 +2,14 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='main-div'>
+    <section className='main-section' id='main-section'>
       <div className='main-text'>
-        <h1>{'<Hello />,'}</h1>
-        <h1>I'm Radouane Bahi</h1>
-        <h2>
+        <p>{'<Hello />,'}</p>
+        <p>I'm Radouane Bahi</p>
+        <p>
           I am a <strong>Web Developer</strong> pushing to be a part of{' '}
           <strong>technology's future.</strong>
-        </h2>
+        </p>
         {/* <p>
           My name is Radouane Bahi. I am a graduate from the Flatiron School. I
           got into software engineering from a friend who recommended it to me
@@ -19,7 +19,7 @@ const Main = () => {
           links to the left leading to my projects and social media/blogs.
         </p> */}
       </div>
-    </div>
+    </section>
   )
 }
 
