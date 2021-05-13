@@ -11,9 +11,9 @@ const Skillset = () => {
       <div className='skillset-text'>
         <p>Background:</p>
         <br />
-        <h3>Flatiron School's Access Labs Graduate</h3>
+        <p className='credentials'>Flatiron School's Access Labs Graduate</p>
         <br />
-        <h3>Bachelor's Degree in Criminal Justice</h3>
+        <p className='credentials'>Bachelor's Degree in Criminal Justice</p>
         <p>from CUNY John Jay College</p>
         <br />
         <p>Skills:</p>
@@ -25,26 +25,26 @@ const Skillset = () => {
             src={javascriptLogo}
             alt='JavaScript'
           />
-          <p style={{ color: '#efe4d7', paddingTop: '1vh' }}>JavaScript</p>
+          <p className='skillset-icon-text'>JavaScript</p>
         </div>
         <div className='skillset-icon-box'>
           <img className='skillset-icon' src={reactLogo} alt='React' />
-          <p style={{ color: '#efe4d7', paddingTop: '1vh' }}>React</p>
+          <p className='skillset-icon-text'>React</p>
         </div>
         <div className='skillset-icon-box'>
           <img className='skillset-icon' src={reduxLogo} alt='Redux' />
-          <p style={{ color: '#efe4d7', paddingTop: '1vh' }}>Redux</p>
+          <p className='skillset-icon-text'>Redux</p>
         </div>
         <br />
       </div>
       <div className='skillset-icons-div-2'>
         <div className='skillset-icon-box'>
           <img className='skillset-icon' src={rubyLogo} alt='Ruby' />
-          <p style={{ color: '#efe4d7', paddingTop: '1vh' }}>Ruby</p>
+          <p className='skillset-icon-text'>Ruby</p>
         </div>
         <div className='skillset-icon-box'>
           <img className='skillset-icon' src={railsLogo} alt='Rails' />
-          <p style={{ color: '#efe4d7', paddingTop: '1vh' }}>Rails</p>
+          <p className='skillset-icon-text'>Rails</p>
         </div>
       </div>
     </section>

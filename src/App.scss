@@ -72,7 +72,7 @@ nav {
   display: flex;
   flex-direction: row;
   padding-top: 3vh;
-  // padding-bottom: 5%;
+  padding-bottom: 3vh;
   // height: 95vh;
   width: 100vw;
   h1 {
@@ -95,5 +95,54 @@ nav {
     // padding-top: 7%;
     padding-left: 2vw;
     // border-radius: 3em;
+  }
+}
+
+.skillset-section {
+  background: #5b5b5b;
+  // height: 95vh;
+  width: 100vw;
+  .skillset-text {
+    color: #efe4d7;
+    text-align: center;
+    padding-top: 3%;
+    font-size: calc(1.5vw + 2px);
+    .credentials {
+      font-size: 3vw;
+    }
+  }
+
+  .skillset-icons-div-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .skillset-icons-div-2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .skillset-icon-box {
+    height: 100px;
+    width: 100px;
+    margin: 2vw;
+    background: #727272;
+    border: 1px solid #5f5f5f;
+    box-shadow: 0px 1px 21px 9px rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    .skillset-icon-text {
+      color: #efe4d7;
+    }
+  }
+
+  .skillset-icon {
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+    padding-top: 1vh;
   }
 }
