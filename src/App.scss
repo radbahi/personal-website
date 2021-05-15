@@ -15,7 +15,7 @@ nav {
   background: var(--background-color-dark);
   position: fixed;
   width: 100vw;
-  // height: 5.5vh;
+  z-index: 1;
 
   .navbar-text {
     font-weight: bold;
@@ -34,7 +34,7 @@ nav {
 
   li {
     float: right;
-    padding-right: 2vw;
+    padding-right: 1.4vw;
     // padding-left: 2vw;
   }
 
@@ -127,8 +127,8 @@ nav {
   }
 
   .skillset-icon-box {
-    height: 100px;
-    width: 100px;
+    height: 10vw;
+    width: 10vw;
     margin: 2vw;
     background: #727272;
     border: 1px solid #5f5f5f;
@@ -136,6 +136,7 @@ nav {
     border-radius: 20px;
     .skillset-icon-text {
       color: #efe4d7;
+      font-size: calc(1.5vw + 2px);
     }
   }
 
@@ -144,5 +145,23 @@ nav {
     width: 70%;
     height: 70%;
     padding-top: 1vh;
+  }
+}
+
+.project-section {
+  background-color: #efe4d7;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  height: 95vh;
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+  .carousel {
+    padding-top: '5vh';
+    z-index: '0';
+    .carousel-item {
+    }
+    .carousel-caption {
+    }
   }
 }

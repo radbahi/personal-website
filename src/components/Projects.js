@@ -8,15 +8,10 @@ const Projects = () => {
   return (
     <section className='project-section'>
       <h1>My Finished Projects</h1>
-      <Carousel
-        style={{ background: '#5b5b5b', paddingTop: '5vh', zIndex: '0' }}
-      >
-        <Carousel.Item>
-          <img
-            style={{ height: '70vh', width: '50vw', paddingBottom: '20vh' }}
-            src={covid19TrackerImg}
-          />
-          <Carousel.Caption>
+      <Carousel className='carousel'>
+        <Carousel.Item className='carousel-item'>
+          <img className='carousel-image' src={covid19TrackerImg} />
+          <Carousel.Caption className='carousel-caption'>
             <h1>COVID-19 Tracker</h1>
             <p>A data tracking and visual tool for the virus</p>
             <a
