@@ -1,9 +1,6 @@
 import React from 'react'
 import portraitOfMe from '../local_files/f26efe7e0435ae9972fc079789ab8d59.jpeg'
 
-const linkedinimg = require('../local_files/linkedin.png')
-const githubimg = require('../local_files/github_PNG42.png')
-
 const AboutMe = () => {
   return (
     <section className='aboutme-section'>
@@ -33,36 +30,7 @@ const AboutMe = () => {
           with code has allowed me to feel that I am contributing to something
           more bigger, that I am a part of this world's technological drive.
           Having graduated in March of 2020, I am still learning as much as I
-          can to keep myself sharp within the industry
-        </p>
-        <p>
-          I'm looking for opportunities! Please contact me via{' '}
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='https://www.linkedin.com/in/radouane-bahi-5410a1137/'
-            style={{ textShadow: '1px 1px blue' }}
-          >
-            LinkedIn
-          </a>
-          ,{' '}
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='https://github.com/radbahi'
-            style={{ textShadow: '1px 1px blue' }}
-          >
-            GitHub
-          </a>
-          , or at{' '}
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='mailto:radbahi@gmail.com'
-            style={{ textShadow: '1px 1px blue' }}
-          >
-            radbahi@gmail.com
-          </a>
+          can to keep myself sharp within the industry.
         </p>
       </div>
     </section>

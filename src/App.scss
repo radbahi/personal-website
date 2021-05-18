@@ -19,7 +19,7 @@ nav {
 
   .navbar-text {
     font-weight: bold;
-    color: #efe4d7;
+    color: var(--background-color-light);
     // font-size: 16px;
     font-size: 1.2rem;
     padding: 10px;
@@ -40,7 +40,7 @@ nav {
 
   li a {
     display: inline-block;
-    color: #efe4d7;
+    color: var(--background-color-light);
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -68,7 +68,7 @@ nav {
 }
 
 .aboutme-section {
-  background-color: #efe4d7;
+  background-color: var(--background-color-light);
   display: flex;
   flex-direction: row;
   padding-top: 3vh;
@@ -99,11 +99,11 @@ nav {
 }
 
 .skillset-section {
-  background: #5b5b5b;
+  background: var(--background-color-dark);
   // height: 95vh;
   width: 100vw;
   .skillset-text {
-    color: #efe4d7;
+    color: var(--background-color-light);
     text-align: center;
     padding-top: 3%;
     font-size: calc(1.5vw + 2px);
@@ -135,7 +135,7 @@ nav {
     box-shadow: 0px 1px 21px 9px rgba(0, 0, 0, 0.19);
     border-radius: 20px;
     .skillset-icon-text {
-      color: #efe4d7;
+      color: var(--background-color-light);
       font-size: calc(1.5vw + 2px);
     }
   }
@@ -149,19 +149,38 @@ nav {
 }
 
 .project-section {
-  background-color: #efe4d7;
+  background-color: var(--background-color-light);
   padding-top: 3%;
   padding-bottom: 5%;
   height: 95vh;
-  width: 100vw;
-  align-items: center;
+  // width: 100vw;
+  // align-items: center;
   text-align: center;
-  .carousel {
-    padding-top: '5vh';
-    z-index: '0';
-    .carousel-item {
-    }
-    .carousel-caption {
-    }
+  // z-index: '0';
+  .carousel-caption {
+    padding-top: -30%;
+    color: '#5b5b5b';
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    padding-top: 40vh;
+    // outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+  }
+
+  .carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: black;
+  }
+
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: black;
   }
 }

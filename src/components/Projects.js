@@ -8,10 +8,22 @@ const Projects = () => {
   return (
     <section className='project-section'>
       <h1>My Finished Projects</h1>
-      <Carousel className='carousel'>
-        <Carousel.Item className='carousel-item'>
-          <img className='carousel-image' src={covid19TrackerImg} />
-          <Carousel.Caption className='carousel-caption'>
+      <Carousel className='carousel' style={{ zIndex: '0' }}>
+        <Carousel.Item>
+          <img
+            className='carousel-image'
+            style={{
+              height: '70vh',
+              width: '50vw',
+              paddingBottom: '20vh',
+              objectFit: 'contain',
+              width: '100%',
+            }}
+            src={covid19TrackerImg}
+          />
+          <Carousel.Caption
+            style={{ background: '#5b5b5b', paddingTop: '0px' }}
+          >
             <h1>COVID-19 Tracker</h1>
             <p>A data tracking and visual tool for the virus</p>
             <a
@@ -38,10 +50,19 @@ const Projects = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: '70vh', width: '50vw', paddingBottom: '20vh' }}
+            className='carousel-image'
+            style={{
+              height: '70vh',
+              width: '50vw',
+              paddingBottom: '20vh',
+              objectFit: 'contain',
+              width: '100%',
+            }}
             src={proShopImg}
           />
-          <Carousel.Caption>
+          <Carousel.Caption
+            style={{ background: '#5b5b5b', paddingTop: '0px' }}
+          >
             <h1>Gadget Pro Shop</h1>
             <p>A mock e-commerce site with a PayPal SDK</p>
 
@@ -69,10 +90,19 @@ const Projects = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: '70vh', width: '50vw', paddingBottom: '20vh' }}
+            className='carousel-image'
+            style={{
+              height: '70vh',
+              width: '50vw',
+              paddingBottom: '20vh',
+              objectFit: 'contain',
+              width: '100%',
+            }}
             src={HanxImg}
           />
-          <Carousel.Caption>
+          <Carousel.Caption
+            style={{ background: '#5b5b5b', paddingTop: '0px' }}
+          >
             <h1>HANX!</h1>
             <p>A mock e-commerce and fan site utilizing a styling library </p>
 
