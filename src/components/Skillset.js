@@ -10,9 +10,7 @@ const Skillset = () => {
     <section className='skillset-section'>
       <div className='skillset-text'>
         <p>Background:</p>
-        <br />
         <p className='credentials'>Flatiron School's Access Labs Graduate</p>
-        <br />
         <p className='credentials'>Bachelor's Degree in Criminal Justice</p>
         <p>from CUNY John Jay College</p>
         <br />
@@ -35,7 +33,6 @@ const Skillset = () => {
           <img className='skillset-icon' src={reduxLogo} alt='Redux' />
           <p className='skillset-icon-text'>Redux</p>
         </div>
-        <br />
       </div>
       <div className='skillset-icons-div-2'>
         <div className='skillset-icon-box'>

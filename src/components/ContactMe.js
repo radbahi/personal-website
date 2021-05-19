@@ -8,15 +8,21 @@ const ContactMe = () => {
       >
         I am currently looking for opportunities!
       </h1>
-      <div className='contactme-info'>
-        <h1>YO</h1>
+      <br />
+      <div className='contactme-text column'>
+        <p>
+          You can contact me via <strong>LinkedIn</strong> and{' '}
+          <strong>Github</strong>.
+        </p>
+      </div>
+      <div className='contactme-resume column'>
         <iframe
           className='pdf'
           src='pdf/web/viewer.html?file=../../my_resume.pdf'
-          title="Radouane Bahi's resume"
+          title='My resume'
           style={{ border: '0' }}
-          width='50%'
-          height='500vh'
+          width='700vw'
+          height='800vh'
         />
       </div>
     </section>
