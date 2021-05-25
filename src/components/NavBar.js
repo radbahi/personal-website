@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className='navbar-text'>Radouane Bahi</div>
       <ul className='links'>
         <li>
-          <a href='#main-section'>Home</a>
+          <a href='#main-section'>Main</a>
         </li>
         <li>
           <a href='#projects-section'>Projects</a>

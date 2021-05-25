@@ -5,6 +5,10 @@
   --background-color-dark: #5b5b5b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background-color-light);
   margin: 0;
@@ -50,7 +54,7 @@ nav {
 
 .main-section {
   background-color: var(--background-color-light);
-  background-image: url('./local_files/DSC03920.jpg');
+  background-image: url('./local_files/Frame-1.png');
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -173,9 +177,16 @@ nav {
 }
 
 .contactme-content {
+  .contactme-resume {
+    overflow: scroll;
+  }
   padding-left: 11vw;
+  .contactme-icon {
+    margin: 0 1vw 3vh 1vw;
+    width: 6vw;
+  }
   .vl {
-    border-left: 3px solid black;
+    border-left: 1px solid black;
     height: 50vh;
   }
   .contactme-text {
@@ -198,6 +209,8 @@ nav {
     .column {
       width: 100%;
     }
+  }
+  @media screen and (max-width: 1492px) {
     .vl {
       display: none;
     }

@@ -6,7 +6,7 @@ import HanxImg from '../local_files/HANXIMG.jpg'
 
 const Projects = () => {
   return (
-    <section className='project-section'>
+    <section className='project-section' id='project-section'>
       <h1>My Finished Projects</h1>
       <Carousel className='carousel' style={{ zIndex: '0' }}>
         <Carousel.Item>
@@ -14,11 +14,11 @@ const Projects = () => {
             className='carousel-image'
             style={{
               height: '70vh',
-              width: '50vw',
+              width: '55vw',
               paddingBottom: '20vh',
               objectFit: 'contain',
-              width: '100%',
             }}
+            alt='COVID-19 Tracker'
             src={covid19TrackerImg}
           />
           <Carousel.Caption
@@ -53,11 +53,11 @@ const Projects = () => {
             className='carousel-image'
             style={{
               height: '70vh',
-              width: '50vw',
+              width: '55vw',
               paddingBottom: '20vh',
               objectFit: 'contain',
-              width: '100%',
             }}
+            alt='Pro shop'
             src={proShopImg}
           />
           <Carousel.Caption
@@ -93,11 +93,11 @@ const Projects = () => {
             className='carousel-image'
             style={{
               height: '70vh',
-              width: '50vw',
+              width: '55vw',
               paddingBottom: '20vh',
               objectFit: 'contain',
-              width: '100%',
             }}
+            alt='HANX!'
             src={HanxImg}
           />
           <Carousel.Caption
