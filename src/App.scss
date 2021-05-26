@@ -124,9 +124,9 @@ nav {
   }
 
   .skillset-icon-box {
-    // padding-top: 3vh;
-    height: calc(7vh + 2px);
-    width: calc(7vw + 2px);
+    padding-top: 1vh;
+    height: calc(7vh + 30px);
+    width: calc(7vw + 30px);
     margin: 1.6vw;
     background: #727272;
     border: 1px solid #5f5f5f;
@@ -213,9 +213,9 @@ nav {
     }
   }
   @media screen and (max-width: 1492px) {
-    // .main-section {
-    //   height: 100px;
-    // }
+    .contactme-resume {
+      margin-left: -12vw;
+    }
     .vl {
       display: none;
     }
