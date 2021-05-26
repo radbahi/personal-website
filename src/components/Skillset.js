@@ -12,8 +12,8 @@ const Skillset = () => {
         <p>Background:</p>
         <p className='credentials'>Flatiron School's Access Labs Graduate</p>
         <p className='credentials'>Bachelor's Degree in Criminal Justice</p>
-        <p>from CUNY John Jay College</p>
-        <br />
+        <p>from John Jay College</p>
+        {/* <br /> */}
         <p>Skills:</p>
       </div>
       <div className='skillset-icons-div-1'>

@@ -24,7 +24,7 @@ nav {
   .navbar-text {
     font-weight: bold;
     color: var(--background-color-light);
-    font-size: 1.2rem;
+    font-size: max(0.7vw + 10px);
     padding: 10px;
   }
   ul {
@@ -58,7 +58,7 @@ nav {
   background-size: cover;
   background-position: center;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   .main-text {
     font-size: calc(16px + 6 * (100vw / 680));
     width: 50vw;
@@ -97,6 +97,7 @@ nav {
 .skillset-section {
   background: var(--background-color-dark);
   width: 100vw;
+  padding-bottom: 1vh;
   .skillset-text {
     color: var(--background-color-light);
     text-align: center;
@@ -123,8 +124,9 @@ nav {
   }
 
   .skillset-icon-box {
-    height: 6vw;
-    width: 6vw;
+    // padding-top: 3vh;
+    height: calc(7vh + 2px);
+    width: calc(7vw + 2px);
     margin: 1.6vw;
     background: #727272;
     border: 1px solid #5f5f5f;
@@ -140,7 +142,7 @@ nav {
     object-fit: contain;
     width: 70%;
     height: 70%;
-    padding-top: 1vh;
+    // padding-top: 1vh;
   }
 }
 
@@ -177,9 +179,9 @@ nav {
 }
 
 .contactme-content {
-  .contactme-resume {
-    overflow: scroll;
-  }
+  // .contactme-resume {
+  //   overflow: scroll;
+  // }
   padding-left: 11vw;
   .contactme-icon {
     margin: 0 1vw 3vh 1vw;
@@ -211,6 +213,9 @@ nav {
     }
   }
   @media screen and (max-width: 1492px) {
+    // .main-section {
+    //   height: 100px;
+    // }
     .vl {
       display: none;
     }
