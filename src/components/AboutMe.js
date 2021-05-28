@@ -3,7 +3,7 @@ import portraitOfMe from '../local_files/f26efe7e0435ae9972fc079789ab8d59.jpeg'
 
 const AboutMe = () => {
   return (
-    <section className='aboutme-section'>
+    <section className='aboutme-section' id='aboutme-section'>
       <img
         className='aboutme-portrait'
         src={portraitOfMe}

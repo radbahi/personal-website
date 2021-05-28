@@ -7,7 +7,7 @@ import railsLogo from '../local_files/rails-logo.png'
 
 const Skillset = () => {
   return (
-    <section className='skillset-section'>
+    <section className='skillset-section' id='skillset-section'>
       <div className='skillset-text'>
         <p>Background:</p>
         <p className='credentials'>Flatiron School's Access Labs Graduate</p>
