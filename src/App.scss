@@ -223,13 +223,21 @@ body {
       display: none;
     }
   }
-  @media (max-width: 990px) {
-    .navbar .navigation {
-      display: none;
-    }
-    .navbar .mobile-navigation {
-      display: flex;
-      background: red;
-    }
+}
+
+@media (max-width: 990px) {
+  .navbar .navigation {
+    display: none;
+  }
+  .navbar .mobile-navigation {
+    display: flex;
+    background: red;
+    align-items: center;
+  }
+
+  .navbar .mobile-navigation .hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
   }
 }
