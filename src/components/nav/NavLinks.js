@@ -1,19 +1,19 @@
-const NavLinks = () => {
+const NavLinks = ({ isMobile, closeMobileMenu }) => {
   return (
-    <ul className='links'>
-      <li>
+    <ul className='navlinks'>
+      <li onClick={() => isMobile && closeMobileMenu()}>
         <a href='#contactme-section'>Contact Me</a>
       </li>
-      <li>
+      <li onClick={() => isMobile && closeMobileMenu()}>
         <a href='#project-section'>Projects</a>
       </li>
-      <li>
+      <li onClick={() => isMobile && closeMobileMenu()}>
         <a href='#skillset-section'>Skills</a>
       </li>
-      <li>
+      <li onClick={() => isMobile && closeMobileMenu()}>
         <a href='#aboutme-section'>About Me</a>
       </li>
-      <li>
+      <li onClick={() => isMobile && closeMobileMenu()}>
         <a href='#main-section'>Main</a>
       </li>
     </ul>

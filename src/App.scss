@@ -18,42 +18,73 @@ body {
 .navbar .mobile-navigation {
   display: none;
 }
-// nav {
-//   background: var(--background-color-dark);
-//   position: fixed;
-//   width: 100vw;
-//   z-index: 1;
 
-//   .navbar-text {
-//     font-weight: bold;
-//     color: var(--background-color-light);
-//     font-size: max(0.7vw + 10px);
-//     padding: 10px;
-//   }
-//   ul {
-//     list-style-type: none;
-//     margin: 0;
-//     padding: 0;
-//     overflow: hidden;
-//     float: right;
-//   }
+.navbar {
+  background: var(--background-color-dark);
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  // justify-content: center;
+  // padding-left: 45vw;
+}
 
-//   li {
-//     float: right;
-//     padding-right: 1.4vw;
-//   }
+.nav-name {
+  font-size: 2rem;
+}
 
-//   li a {
-//     display: inline-block;
-//     color: var(--background-color-light);
-//     text-align: center;
-//     padding: 10px;
-//     text-decoration: none;
-//     font-size: 1.2rem;
-//     padding-right: 1vw;
-//     padding-left: 2vw;
-//   }
+// .navbar-text {
+//   font-weight: bold;
+//   color: var(--background-color-light);
+//   font-size: max(0.7vw + 10px);
+//   padding: 10px;
 // }
+
+.navbar nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  display: inline-block;
+  margin: 0 50px 0 0;
+  padding-bottom: 25px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+}
+
+@media (max-width: 990px) {
+  .navbar .navigation {
+    display: none;
+  }
+  .navbar .mobile-navigation {
+    display: flex;
+    background: red;
+    align-items: center;
+  }
+
+  .navbar .mobile-navigation .hamburger {
+    position: absolute;
+    right: 5%;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .navbar nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: red;
+    border-top: 2px solid yellow;
+    //include height of links to match under navbar
+  }
+}
 
 .main-section {
   background-color: var(--background-color-light);
@@ -222,22 +253,5 @@ body {
     .vl {
       display: none;
     }
-  }
-}
-
-@media (max-width: 990px) {
-  .navbar .navigation {
-    display: none;
-  }
-  .navbar .mobile-navigation {
-    display: flex;
-    background: red;
-    align-items: center;
-  }
-
-  .navbar .mobile-navigation .hamburger {
-    position: absolute;
-    right: 5%;
-    cursor: pointer;
   }
 }

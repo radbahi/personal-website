@@ -1,18 +1,31 @@
 import NavLinks from './NavLinks'
-import { CgMenuBoxed } from 'react-icons/cg'
+import { CgMenuBoxed, CgClose } from 'react-icons/cg'
 import { useState } from 'react'
 
 const MobileNavigation = () => {
   const [open, setOpen] = useState(false)
+  const hamburgerIconOpen = (
+    <CgMenuBoxed
+      className='hamburger'
+      size='40px'
+      color='beige'
+      onClick={() => setOpen(!open)}
+    />
+  )
+
+  const hamburgerIconClose = (
+    <CgClose
+      className='hamburger'
+      size='40px'
+      color='beige'
+      onClick={() => setOpen(!open)}
+    />
+  )
+  const closeMobileMenu = () => setOpen(false)
   return (
     <nav className='mobile-navigation'>
-      <CgMenuBoxed
-        className='hamburger'
-        size='40px'
-        color='white'
-        onClick={() => setOpen(!open)}
-      />
-      {open && <NavLinks />}
+      {open ? hamburgerIconClose : hamburgerIconOpen}
+      {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
     </nav>
   )
 }
