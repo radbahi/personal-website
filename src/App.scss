@@ -15,31 +15,22 @@ body {
   font-family: 'Poppins';
 }
 
-.navbar .mobile-navigation {
-  display: none;
-}
-
 .navbar {
   background: var(--background-color-dark);
   height: 50px;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 999;
   display: flex;
-  // justify-content: center;
-  // padding-left: 45vw;
+}
+
+.navbar .mobile-navigation {
+  display: none;
 }
 
 .nav-name {
   font-size: 2rem;
 }
-
-// .navbar-text {
-//   font-weight: bold;
-//   color: var(--background-color-light);
-//   font-size: max(0.7vw + 10px);
-//   padding: 10px;
-// }
 
 .navbar nav ul {
   list-style-type: none;
@@ -63,7 +54,6 @@ body {
   }
   .navbar .mobile-navigation {
     display: flex;
-    background: red;
     align-items: center;
   }
 
@@ -78,11 +68,12 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
+    top: 50px;
     right: 0;
-    width: 100%;
-    background-color: red;
-    border-top: 2px solid yellow;
-    //include height of links to match under navbar
+    width: 20%;
+    text-align: center;
+    background-color: var(--background-color-dark);
+    border-top: 2px solid var(--background-color-light);
   }
 }
 
