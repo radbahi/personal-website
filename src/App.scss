@@ -30,6 +30,7 @@ body {
 
 .nav-name {
   font-size: 2rem;
+  color: var(--background-color-light);
 }
 
 .navbar nav ul {
@@ -46,6 +47,7 @@ body {
 
 .navbar nav ul li a {
   text-decoration: none;
+  color: var(--background-color-light);
 }
 
 @media (max-width: 990px) {
@@ -73,6 +75,8 @@ body {
     width: 20%;
     text-align: center;
     background-color: var(--background-color-dark);
+  }
+  .navbar nav ul li {
     border-top: 2px solid var(--background-color-light);
   }
 }
