@@ -167,7 +167,6 @@ body {
     object-fit: contain;
     width: 70%;
     height: 70%;
-    // padding-top: 1vh;
   }
 }
 
@@ -204,9 +203,6 @@ body {
 }
 
 .contactme-content {
-  // .contactme-resume {
-  //   overflow: scroll;
-  // }
   padding-left: 11vw;
   .contactme-icon {
     margin: 0 1vw 3vh 1vw;
@@ -222,7 +218,6 @@ body {
   }
   .column {
     float: left;
-    // padding-left: 3vw;
     padding-right: 3vw;
   }
 
@@ -238,6 +233,10 @@ body {
     }
     .contactme-resume {
       margin-left: -12vw;
+    }
+    .pdf {
+      max-width: 101vw;
+      max-height: 50vh;
     }
   }
   @media screen and (max-width: 1550px) {

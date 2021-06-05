@@ -4,7 +4,7 @@ import Navigation from './Navigation'
 const NavBar = () => {
   return (
     <div className='navbar'>
-      <p className='nav-name'>Sample name</p>
+      <p className='nav-name'>Radouane Bahi</p>
 
       <Navigation />
       <MobileNavigation />

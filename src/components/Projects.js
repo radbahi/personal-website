@@ -14,7 +14,7 @@ const Projects = () => {
             className='carousel-image'
             style={{
               height: '70vh',
-              width: '55vw',
+              width: '70vw',
               paddingBottom: '20vh',
               objectFit: 'contain',
             }}
@@ -53,7 +53,7 @@ const Projects = () => {
             className='carousel-image'
             style={{
               height: '70vh',
-              width: '55vw',
+              width: '70vw',
               paddingBottom: '20vh',
               objectFit: 'contain',
             }}
@@ -93,7 +93,7 @@ const Projects = () => {
             className='carousel-image'
             style={{
               height: '70vh',
-              width: '55vw',
+              width: '70vw',
               paddingBottom: '20vh',
               objectFit: 'contain',
             }}
