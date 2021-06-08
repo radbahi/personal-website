@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.40c25ac0.chunk.css",
-    "main.js": "/personal-website/static/js/main.6bb4def6.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.6bb4def6.chunk.js.map",
-    "runtime-main.js": "/personal-website/static/js/runtime-main.6827eb32.js",
-    "runtime-main.js.map": "/personal-website/static/js/runtime-main.6827eb32.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/personal-website/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9c880b00.chunk.js": "/personal-website/static/js/2.9c880b00.chunk.js",
-    "static/js/2.9c880b00.chunk.js.map": "/personal-website/static/js/2.9c880b00.chunk.js.map",
-    "index.html": "/personal-website/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/personal-website/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.40c25ac0.chunk.css.map": "/personal-website/static/css/main.40c25ac0.chunk.css.map",
-    "static/js/2.9c880b00.chunk.js.LICENSE.txt": "/personal-website/static/js/2.9c880b00.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/personal-website/static/media/Frame-1.5b6ff85a.png",
-    "static/media/HANXIMG.8c0e84a9.jpg": "/personal-website/static/media/HANXIMG.8c0e84a9.jpg",
-    "static/media/covid19tracker.44a9f094.png": "/personal-website/static/media/covid19tracker.44a9f094.png",
-    "static/media/f26efe7e0435ae9972fc079789ab8d59.b14e7c42.jpeg": "/personal-website/static/media/f26efe7e0435ae9972fc079789ab8d59.b14e7c42.jpeg",
-    "static/media/github_PNG42.ad18ffa4.png": "/personal-website/static/media/github_PNG42.ad18ffa4.png",
-    "static/media/proshop.d0b60c7b.png": "/personal-website/static/media/proshop.d0b60c7b.png"
+    "main.css": "/static/css/main.496c486b.chunk.css",
+    "main.js": "/static/js/main.728aed02.chunk.js",
+    "main.js.map": "/static/js/main.728aed02.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6417fc36.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6417fc36.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9c880b00.chunk.js": "/static/js/2.9c880b00.chunk.js",
+    "static/js/2.9c880b00.chunk.js.map": "/static/js/2.9c880b00.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.496c486b.chunk.css.map": "/static/css/main.496c486b.chunk.css.map",
+    "static/js/2.9c880b00.chunk.js.LICENSE.txt": "/static/js/2.9c880b00.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Frame-1.5b6ff85a.png",
+    "static/media/HANXIMG.8c0e84a9.jpg": "/static/media/HANXIMG.8c0e84a9.jpg",
+    "static/media/covid19tracker.44a9f094.png": "/static/media/covid19tracker.44a9f094.png",
+    "static/media/f26efe7e0435ae9972fc079789ab8d59.b14e7c42.jpeg": "/static/media/f26efe7e0435ae9972fc079789ab8d59.b14e7c42.jpeg",
+    "static/media/github_PNG42.ad18ffa4.png": "/static/media/github_PNG42.ad18ffa4.png",
+    "static/media/proshop.d0b60c7b.png": "/static/media/proshop.d0b60c7b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6827eb32.js",
+    "static/js/runtime-main.6417fc36.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.9c880b00.chunk.js",
-    "static/css/main.40c25ac0.chunk.css",
-    "static/js/main.6bb4def6.chunk.js"
+    "static/css/main.496c486b.chunk.css",
+    "static/js/main.728aed02.chunk.js"
   ]
 }
