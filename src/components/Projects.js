@@ -7,7 +7,7 @@ import HanxImg from '../local_files/HANXIMG.jpg'
 const Projects = () => {
   return (
     <section className='project-section' id='project-section'>
-      <h1>My Finished Projects</h1>
+      <h1>My Projects</h1>
       <Carousel className='carousel' style={{ zIndex: '0' }}>
         <Carousel.Item>
           <img
