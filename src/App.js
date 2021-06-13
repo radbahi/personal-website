@@ -8,8 +8,6 @@ import ContactMe from './components/ContactMe.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
 
-//test
-
 function App() {
   return (
     <>
