@@ -19,7 +19,7 @@ const Projects = () => {
               paddingBottom: "20vh",
               objectFit: "contain",
             }}
-            alt="COVID-19 Tracker"
+            alt="Memories"
             src={MemoriesImg}
           />
           <Carousel.Caption
